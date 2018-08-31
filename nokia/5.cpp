@@ -51,16 +51,16 @@ int getHeight(TreeNode* node) {
 
 
 int main() {
-	using namespace std;
+    using namespace std;
     std::string text;
 
     cout << "Height of tree" << endl;
 
     TreeNode* tree = generateTree();
-	int h = getHeight(tree);
+    int h = getHeight(tree);
     cout << h << endl;
-	
-	delete tree;
 
-	return 0;
+    delete tree;
+
+    return 0;
 }

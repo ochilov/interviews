@@ -64,7 +64,7 @@ List_t* erase_loop(List_t* item, std::size_t index, std::size_t count) {
 
 
 int main() {
-	using namespace std;
+    using namespace std;
     std::string text;
 
     cout << "Delete items from quelist" << endl;
@@ -75,5 +75,5 @@ int main() {
     print(data);
     clear(data);
 
-	return  0;
+    return  0;
 }
