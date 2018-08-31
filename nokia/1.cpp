@@ -27,7 +27,7 @@ int FindPrimeNumbers(int count, int * find_list) {
 };
 
 int main() {
-	using namespace std;
+    using namespace std;
     int count = 0;
 
     cout << "Find prime numbers" << endl;
@@ -43,5 +43,5 @@ int main() {
     cout << "." << endl; 
     delete[] primes_list;
 
-	return  0;
+    return  0;
 }

@@ -13,7 +13,7 @@ void print_minmax(uint32_t number) {
 }
 
 int main() {
-	using namespace std;
+    using namespace std;
     uint32_t number;
 
     cout << "Calculate min|max of input number complected only '1' in binnary" << endl;
@@ -22,5 +22,5 @@ int main() {
 
     cout << "Number in binary is " << bitset<32>(number) << endl;
     print_minmax(number);
-	return  0;
+    return  0;
 }

@@ -21,7 +21,7 @@ std::map<int, int> getCountWords(const std::string& text) {
 }
 
 int main() {
-	using namespace std;
+    using namespace std;
     std::string text;
 
     cout << "Group and count words with equal length" << endl;
@@ -35,5 +35,5 @@ int main() {
     for (auto item : result)
         cout << "[" << item.first << "] " << item.second << " times" << endl;
 
-	return  0;
+    return  0;
 }
