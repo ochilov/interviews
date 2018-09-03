@@ -2,10 +2,10 @@
 
 ## Задача:  
 	Пускай бинарное дерево задано структурой вида:
-	```cpp
-	struct TreeNode {
-		TreeNode *leftChild, *rightChild;
-	}
-	```
+```cpp
+struct TreeNode {
+	TreeNode *leftChild, *rightChild;
+}
+```
 	Требуется написать функцию, вычисляющую ***глубину дерева*** (максимальное количество узлов на пути от корня до листа).
 
