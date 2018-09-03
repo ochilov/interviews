@@ -2,10 +2,10 @@
 
 ## Задача:  
 	Есть односвязный список:
-	```cpp
-	typedef struct List {
-		DataType data;
-		struct List* next;
-	}
-	```
+```cpp
+typedef struct List {
+	DataType data;
+	struct List* next;
+}
+```
 	Написать функцию, которая удалит из этого списка каждый пятый элемент.
